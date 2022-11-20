@@ -1,0 +1,410 @@
+{
+  "navbar": {
+    "management": {
+      "dashboard": "Dashboard",
+      "userManagement": "User management",
+      "gameSettings": "Game settings",
+      "timeFlipSettings": "TimeFlip settings"
+    },
+    "loggedInText": "You are logged in as: ",
+    "dropdown": {
+      "profile": "Profile",
+      "settings": "Settings",
+      "users": "Users"
+    },
+    "language": {
+      "title": "Language",
+      "english": "English",
+      "german": "German"
+    }
+  },
+  "login": {
+    "username": "Username",
+    "password": "Password",
+    "loginButton": "Login",
+    "wrongPassword": "Wrong Username or Password",
+    "emptyForm": "Form cannot be empty"
+  },
+  "gameLobby": {
+    "title": "Game<span class='font-weight-thin'>Lobby</span>",
+    "subtitle": "Join an open game or even create your own!",
+    "gameInvites": {
+      "title": "Game <span class='font-weight-light'>Invites</span>",
+      "noGames": "There are no games you can join right now but you can create your own game."
+    },
+    "gameCard" : {
+      "topic": "Topic",
+      "players": "Players",
+      "timeFlip": {
+        "available": "Available",
+        "unavailable": "Unavailable"
+      },
+      "join": "JOIN"
+    },
+    "createGame": {
+      "createGameButton": "Create new game",
+      "title": "Create new game",
+      "roomName": "Room name",
+      "topic": "Topic",
+      "points": "Points to win",
+      "cancel": "Cancel",
+      "create": "Create",
+      "error": "All fields must be filled out!"
+    },
+    "stats": {
+      "title": "Interesting <span class='font-weight-light'>Statistics</span>",
+      "texts": {
+        "users": " registered users",
+        "games": " games played",
+        "terms": " terms guessed"
+      },
+      "viewAll": "View All"
+    }
+  },
+  "gameRoom": {
+    "spectating": "You are spectating this game!",
+    "gameErrors": {
+      "PLAYER_NOT_PART_OF_A_TEAM": "Every joined player has to be part of a team",
+      "NO_TOPIC_SPECIFIED": "No topic specified",
+      "MAX_POINTS_NOT_SPECIFIED": "Points to win not specified",
+      "NOT_ENOUGH_TERMS": "Topic doesn't have enough terms",
+      "NO_ASSOCIATED_TIMEFLIP": "No TimeFlip selected",
+      "TIMEFLIP_NOT_CONFIGURED": "Selected TimeFlip isn't configured",
+      "NOT_ENOUGH_TEAMS": "Not enough teams",
+      "NOT_ENOUGH_PLAYERS_IN_TEAM": "There are not enough players in one of the teams"
+    },
+    "pregame": {
+      "topic": "Topic",
+      "maxPoints": "Points to win",
+      "startGame": "Start game",
+      "ready": "Ready",
+      "leaveRoom": "Leave room",
+      "timeFlip": "TimeFlip",
+      "createTeam": {
+        "title": "Create team",
+        "teamName": "Team name",
+        "create": "Create",
+        "cancel": "Cancel"
+      },
+      "waitingList": {
+        "title": "Waiting Players",
+        "noPlayers": "No waiting players!"
+      },
+      "invitedList": {
+        "title": "Invited Players",
+        "noPlayers": "No users invited!",
+        "invite": "Invite player"
+      },
+      "teamList": {
+        "noTeam": "There is currently no team to join.",
+        "leaveTeam": "Leave team",
+        "joinTeam": "Join team",
+        "noPlayers": "This team is empty!"
+      }
+    }
+  },
+  "game": {
+    "spectating": "You are spectating this game!",
+    "yourTurn": "It's your turn!",
+    "guessDialog": {
+      "title": "Has this term been guessed correctly?",
+      "timeout": "No (time is up)",
+      "ruleViolation": "No (rule violation)",
+      "correctGuess": "Yes"
+    },
+    "winDialog": {
+      "title": "Winner: Team",
+      "winText": "You have won the game!",
+      "loseText": "You have lost the game!",
+      "spectateText": "What an exciting game!",
+      "leaveGame": "Back to lobby"
+    },
+    "abortDialog": {
+      "title": "Game aborted",
+      "abortText": "The game was aborted.",
+      "leaveGame": "Back to lobby"
+    },
+    "termSheet": {
+      "topic": "Topic",
+      "time": "Time",
+      "minute": "Minute",
+      "minutes": "Minutes",
+      "activity": "Activity",
+      "points": "Points",
+      "currentTeam": "Guessing Team",
+      "currentPlayer": "Explaining Player",
+      "timeRemaining": "Time remaining",
+      "nextRound": "Next round",
+      "ruleViolation": {
+        "title": "Rule violation",
+        "punish": "Punish",
+        "cancel": "Cancel"
+      }
+    },
+    "teamPoints": "Team Points",
+    "spectators": {
+      "title": "Spectators",
+      "empty": "Nobody is spectating!"
+    }
+  },
+  "dashboard": {
+    "statCards": {
+      "registeredUsers": "registered users",
+      "activeUsers": "active users",
+      "gamesPlayed": "games played",
+      "termsGuessed": "terms guessed"
+    },
+    "uniquePlayers": "Unique players per month",
+    "topics": {
+      "title": "Topics",
+      "manage": "Manage",
+      "terms": "terms"
+    },
+    "activeGames": {
+      "title": "Active Games",
+      "noGames": "There are currently no games running",
+      "spectate": "Spectate"
+    },
+    "timeFlips": {
+      "manage": "Manage",
+      "noTimeFlips": "There are currently no TimeFlips online"
+    },
+    "gameRoundsPerDay": "Game rounds per day",
+    "gameRoundsWon": "Game rounds won",
+    "gameRounds": "Game rounds",
+    "gamesPerTopic": "Games per topic",
+    "gamesWonPerUser": "Ranking",
+    "termsGuessedPerTopic": "Correct guesses per topic"
+  },
+  "profile": {
+    "title": "Profile",
+    "information": {
+      "title": "Personal Information",
+      "role": "Role",
+      "name": "Name"
+    },
+    "knownUsers": {
+      "title": "Teammates"
+    }
+  },
+  "statistic": {
+    "title": "Statistics",
+    "lostGames": "Games lost",
+    "wonGames": "Games won",
+    "wonRounds": "Rounds won",
+    "lostRounds": "Rounds lost",
+    "fastestExplanationTime": "Fastest explanation time",
+    "averageExplanationTime": "Average explanation time",
+    "wrong": "Wrong",
+    "correct": "Correct"
+  },
+  "userManagement": {
+    "userList": {
+      "ID": "ID",
+      "username": "Username",
+      "firstName": "Firstname",
+      "lastName": "Lastname",
+      "roles": "Roles",
+      "deleted": "User deleted",
+      "notDeleted": "User could not be deleted",
+      "password": "Password",
+      "deleteUser": "Delete User ",
+      "cancel": "Cancel",
+      "active": "Active",
+      "disableUser": "Deactivate user",
+      "passwordToShort": "Enter at least 5 chars"
+    },
+    "createUser": {
+      "title": "Create User",
+      "newUser": "Create new user",
+      "cancel": "cancel",
+      "save": "save",
+      "emptyForm": "Form cannot be empty"
+    },
+    "title": "Users"
+  },
+  "userSettings": {
+    "title": "User <span class='font-weight-thin'>Settings</span>",
+    "username": "Username",
+    "name": "Name",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "password": "Password",
+    "changePassword" : {
+      "oldPassword": "old Password",
+      "newPassword": "new Password",
+      "newPassword2": "retype Password",
+      "changePassword": "Change Password",
+      "changePasswordOk": "Password changed",
+      "changePasswordFailure": "Change failed",
+      "passwordsNotEqual": "Passwords not equal",
+      "change": "Change",
+      "cancel": "Cancel"
+    },
+    "roles": "Roles",
+    "save": "Save",
+    "saveOk": "Saved",
+    "saveFailure": "Error",
+    "close": "Close",
+    "active": "This profile is active",
+    "inActive": "This profile is inactive"
+  },
+  "notification": {
+    "logoutSuccess": "You have been logged out",
+    "confirmDeletion": "Deleted",
+    "deletionFailed": "Deletion failed",
+    "userCreated": "User Created",
+    "creationFailed": "User not created",
+    "passwordChanged": "Password changed",
+    "userSaved": "User saved",
+    "topicSaved": "Topic saved",
+    "topicDeleted": "Topic deleted",
+    "termNotSaved": "Term cannot be saved",
+    "duplicateTerm": "Term already exists",
+    "success": "Success",
+    "error": "Error",
+    "topicNotSaved": "Topic cannot not be saved",
+    "topicNotUpdated": "Topic not updated",
+    "termNotDeleted": "Term not deleted",
+    "termDeleted": "Term deleted",
+    "renameTopicError": "Topic not renamed",
+    "topicChanged": "Topic changed",
+    "topicsNotLoaded": "Topics not loaded",
+    "termChanged": "Term changed",
+    "termAdded": "Term added",
+    "parsingError": "Parsing Error, maybe File is not formatted as .json",
+    "termsImported": "Terms imported",
+    "readFileError": "Cannot read file",
+    "getUserFailure": "Error loading users",
+    "userSaveFailure": "User not saved",
+    "duplicateUsername": "Username already exists",
+    "webTokenexpired": "Wrong credentials",
+    "termsNotImported": "Terms could not be imported",
+    "inviteSuccess": "Player invited",
+    "alreadyInvited": "Player is already invited",
+    "kickSuccess": "Player kicked",
+    "kickFailure": "Player could not be kicked",
+    "timeFlipChanged": "Configuration updated",
+    "timeFlipNotChanged": "Configuration could not be updated"
+  },
+  "gameSettings": {
+    "title": "Game <span class='font-weight-thin'>Settings</span",
+    "topicList": {
+      "Id": "Id",
+      "name": "Name",
+      "topicName": "Topic Name",
+      "amountTerms": "#Terms",
+      "deleteTopic": "Delete Topic"
+    },
+    "termList": {
+      "termName": "Term Name",
+      "deleteTerm": "Delete Term",
+      "name": "Name",
+      "emptyForm": "Form cannot be empty",
+      "newTerm": "New Term",
+      "addTerm": "Add",
+      "cancel": "Cancel",
+      "termId": "Id"
+    },
+    "topicDialog": {
+      "save": "Save",
+      "settings": "Settings",
+      "name": "Name",
+      "info": "Click on term to change its name",
+      "terms": "Terms"
+    },
+    "createTopic": {
+      "createTopic": "Create Topic",
+      "uploadTitle": "Upload Topics",
+      "uploadInfo": "Select your Topics file",
+      "import": "Import",
+      "cancel": "Cancel",
+      "fileUploaded": "File uploaded",
+      "noFile": "No File selected",
+      "JSONInfo": "The content should have the following shape."
+    }
+  },
+  "deleteButton": {
+    "cancel": "Cancel"
+  },
+  "timeFlip": {
+    "settings": {
+      "title": "TimeFlip <span class='font-weight-thin'>Settings</span",
+      "create": "add TimeFlip",
+      "list": {
+        "id": "Id",
+        "available": "Online",
+        "deviceName": "Device Name",
+        "deviceAddress": "Device Address",
+        "batteryLevel": "Battery Level"
+      },
+      "dialog": {
+        "save": "Save",
+        "fill": "Fill randomly"
+      },
+      "side": "Side",
+      "action": "Action",
+      "points": "Points",
+      "minutes": "Minutes",
+      "emptyForm": "Form cannot be empty",
+      "configured": "Configured"
+    }
+  },
+  "error": {
+    "404": {
+      "title": "NOT FOUND",
+      "text": "Our little helper searched everywhere but could not find the page you were looking for.",
+      "back": "Back to lobby"
+    },
+    "500": {
+      "title": "INTERNAL SERVER ERROR",
+      "text": "Looks like our buddy exploded as he tried to handle your request.",
+      "back": "Back to lobby"
+    }
+  },
+  "footer": {
+    "lobby": {
+      "title": "Lobby"
+    },
+    "team": {
+      "title": "Team",
+      "text": "No project works out without a strong team behind it."
+    },
+    "tos": {
+      "title": "Terms of Service",
+      "dataUsage": {
+        "title": "Data Usage",
+        "text": "By accessing the TimeGuess website, you agree to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for complying with them. If you disagree, you are prohibited from accessing the game.<br><br>We reserve the right to change the Terms and Conditions and Privacy Policies at any time.<br><br>Your continued use of the game after posting changes to this policy will be considered as your acceptance of those changes."
+      },
+      "applicableLaw": {
+        "title": "Applicable Law",
+        "text": "These terms and conditions are governed and interpreted following Austria's laws, and you are irrevocably subject to the exclusive jurisdiction of the courts in that State or location."
+      },
+      "userConduct": {
+        "title": "User Conduct",
+        "text": "You must treat all users with respect and accomplish all updated terms, conditions, and policies connected to TimeGuess. Respect other users of the game. Inappropriate language and inappropriate behavior are prohibited. We are not responsible for user-generated content such as nicknames, phrases, and drawings. Users are responsible for their actions and any consequences that may result from there."
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "If you encounter any <span class='text-decoration-line-through'>bugs</span> features, then keep them to yourself, otherwise you can drop a line.",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Submit",
+        "rules": {
+          "name": "Name is required",
+          "email": "Email is required",
+          "emailValid": "Email must be valid",
+          "message": "Message is required"
+        }
+      },
+      "dialog": {
+        "title": "We are sorry",
+        "text": "We do not have a support team which could look after your concern, let alone do we have an email address.",
+        "understand": "I understand"
+      }
+    }
+  }
+}

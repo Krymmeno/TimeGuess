@@ -1,0 +1,410 @@
+{
+  "navbar": {
+    "management": {
+      "dashboard": "Dashboard",
+      "userManagement": "Nutzer Verwaltung",
+      "gameSettings": "Spiele Einstellungen",
+      "timeFlipSettings": "TimeFlip Einstellungen"
+    },
+    "loggedInText": "Du bist eingeloggt als: ",
+    "dropdown": {
+      "profile": "Profil",
+      "settings": "Einstellungen",
+      "users": "Nutzer"
+    },
+    "language": {
+      "title": "Sprache",
+      "english": "Englisch",
+      "german": "Deutsch"
+    }
+  },
+  "login": {
+    "username": "Benutzername",
+    "password": "Passwort",
+    "loginButton": "Anmelden",
+    "wrongPassword": "Benutzername oder Passwort falsch",
+    "emptyForm": "Formular darf nicht leer sein"
+  },
+  "gameLobby": {
+    "title": "Spiele<span class='font-weight-thin'>Lobby</span>",
+    "subtitle": "Trete einem Spiel bei oder erstelle dein Eigenes!",
+    "gameInvites": {
+      "title": "Spiele <span class='font-weight-light'>Einladungen</span>",
+      "noGames": "Es gibt gerade keine Spiele denen du beitreten kannst aber du kannst dein Eigenes erstellen."
+    },
+    "gameCard" : {
+      "topic": "Thema",
+      "players": "Spieler",
+      "timeFlip": {
+        "available": "Verfügbar",
+        "unavailable": "Nicht verfügbar"
+      },
+      "join": "BEITRETEN"
+    },
+    "createGame": {
+      "createGameButton": "Neues Spiel erstellen",
+      "title": "Neues Spiel erstellen",
+      "roomName": "Raum Name",
+      "topic": "Thema",
+      "points": "Punkte zum Sieg",
+      "cancel": "Abbrechen",
+      "create": "Erstellen",
+      "error": "Alle Felder müssen ausgefüllt werden!"
+    },
+    "stats": {
+      "title": "Interessante <span class='font-weight-light'>Statistiken</span>",
+      "texts": {
+        "users": " registrierte User",
+        "games": " Spiele gespielt",
+        "terms": " Begriffe erraten"
+      },
+      "viewAll": "Alle ansehen"
+    }
+  },
+  "gameRoom": {
+    "spectating": "Du schaust bei diesem Spiel zu!",
+    "gameErrors": {
+      "PLAYER_NOT_PART_OF_A_TEAM": "Jeder beigetretene Spieler muss Teil eines Teams sein",
+      "NO_TOPIC_SPECIFIED": "Kein Thema gewählt",
+      "MAX_POINTS_NOT_SPECIFIED": "Punkte zum Sieg nicht festgelegt",
+      "NOT_ENOUGH_TERMS": "Thema hat nicht genügend Begriffe hinterlegt",
+      "NO_ASSOCIATED_TIMEFLIP": "Kein TimeFlip ausgewählt",
+      "TIMEFLIP_NOT_CONFIGURED": "Ausgewählter TimeFlip ist nicht konfiguriert",
+      "NOT_ENOUGH_TEAMS": "Nicht genügend Teams",
+      "NOT_ENOUGH_PLAYERS_IN_TEAM": "Mindestens ein Team hat nicht genügend Spieler"
+    },
+    "pregame": {
+      "topic": "Thema",
+      "maxPoints": "Punkte zum Sieg",
+      "startGame": "Spiel starten",
+      "ready": "Bereit",
+      "leaveRoom": "Raum verlassen",
+      "timeFlip": "TimeFlip",
+      "createTeam": {
+        "title": "Team erstellen",
+        "teamName": "Team Name",
+        "create": "Erstellen",
+        "cancel": "Abbrechen"
+      },
+      "waitingList": {
+        "title": "Wartende Spieler",
+        "noPlayers": "Keine wartenden Spieler!"
+      },
+      "invitedList": {
+        "title": "Eingeladene Spieler",
+        "noPlayers": "Keine eingeladenen Spieler!",
+        "invite": "Spieler einladen"
+      },
+      "teamList": {
+        "noTeam": "Es gibt gerade kein Team zum Beitreten.",
+        "leaveTeam": "Team verlassen",
+        "joinTeam": "Team beitreten",
+        "noPlayers": "Dieses Team ist leer!"
+      }
+    }
+  },
+  "game": {
+    "spectating": "Du schaust bei diesem Spiel zu!",
+    "yourTurn": "Du bist an der Reihe!",
+    "guessDialog": {
+      "title": "Wurde der Begriff richtig erraten?",
+      "timeout": "Nein (Zeit vorbei)",
+      "ruleViolation": "Nein (Regelverstoß)",
+      "correctGuess": "Ja"
+    },
+    "winDialog": {
+      "title": "Gewinner: Team",
+      "winText": "Du hast das Spiel gewonnen!",
+      "loseText": "Du hast das Spiel verloren!",
+      "spectateText": "Was ein spannendes Spiel!",
+      "leaveGame": "Zurück zur Lobby"
+    },
+    "abortDialog": {
+      "title": "Spielabbruch",
+      "abortText": "Das Spiel wurde abgebrochen.",
+      "leaveGame": "Zurück zur Lobby"
+    },
+    "termSheet": {
+      "topic": "Thema",
+      "time": "Zeit",
+      "minute": "Minute",
+      "minutes": "Minuten",
+      "activity": "Aktivität",
+      "points": "Punkte",
+      "currentTeam": "Ratendes Team",
+      "currentPlayer": "Erklärender Spieler",
+      "timeRemaining": "Zeit verbleibend",
+      "nextRound": "Nächste Runde",
+      "ruleViolation": {
+        "title": "Regelverstoß",
+        "punish": "Bestrafen",
+        "cancel": "Abbrechen"
+      }
+    },
+    "teamPoints": "Team Punkte",
+    "spectators": {
+      "title": "Zuschauer",
+      "empty": "Niemand schaut zu!"
+    }
+  },
+  "dashboard": {
+    "statCards": {
+      "registeredUsers": "registrierte User",
+      "activeUsers": "aktive User",
+      "gamesPlayed": "Spiele gespielt",
+      "termsGuessed": "Begriffe erraten"
+    },
+    "uniquePlayers": "Verschiedene Spieler pro Monat",
+    "topics": {
+      "title": "Themen",
+      "manage": "Bearbeiten",
+      "terms": "Begriffe"
+    },
+    "activeGames": {
+      "title": "Aktive Spiele",
+      "noGames": "Es gibt gerade keine aktiven Spiele",
+      "spectate": "Zuschauen"
+    },
+    "timeFlips": {
+      "manage": "Bearbeiten",
+      "noTimeFlips": "Es gibt gerade keine TimeFlips"
+    },
+    "gameRoundsPerDay": "Spielrunden pro Tag",
+    "gameRoundsWon": "Spielrunden gewonnen",
+    "gameRounds": "Spielrunden",
+    "gamesPerTopic": "Spiele pro Thema",
+    "gamesWonPerUser": "Rangliste",
+    "termsGuessedPerTopic": "Erratene Begriffe pro Thema"
+  },
+  "profile": {
+    "title": "Profil",
+    "information": {
+      "title": "Persönliche Daten",
+      "role": "Rolle",
+      "name": "Name"
+    },
+    "knownUsers": {
+      "title": "Teammitglieder"
+    }
+  },
+  "statistic": {
+    "title": "Statistiken",
+    "lostGames": "Spiele verloren",
+    "wonGames": "Spiele gewonnen",
+    "wonRounds": "Runden gewonnen",
+    "lostRounds": "Runden verloren",
+    "fastestExplanationTime": "Schnellste Runde",
+    "averageExplanationTime": "Durchschnittliche Runde",
+    "wrong": "Falsch",
+    "correct": "Korrekt"
+  },
+  "userManagement": {
+    "userList": {
+      "ID": "ID",
+      "username": "Benutzername",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "roles": "Rollen",
+      "deleted": "Benutzer gelöscht",
+      "notDeleted": "Benutzer konnte nicht gelöscht werden",
+      "password": "Passwort",
+      "deleteUser": "Lösche Benutzer {{userToDelete.username}}",
+      "cancel": "Abbrechen",
+      "active": "Aktiv",
+      "disableUser": "Benutzer deaktivieren?",
+      "passwordToShort": "Geben Sie mindestens 5 Zeichen ein"
+    },
+    "createUser": {
+      "title": "Benutzer erstellen",
+      "newUser": "Neuen Benutzer erstellen",
+      "cancel": "Abbrechen",
+      "save": "Speichern",
+      "emptyForm": "Formular darf nicht leer sein"
+    },
+    "title": "Benutzer"
+  },
+  "userSettings": {
+    "title": "Benutzer <span class='font-weight-thin'>Verwaltung</span>",
+    "username": "Benutzername",
+    "name": "Name",
+    "firstname": "Vorname",
+    "lastname": "Nachname",
+    "password": "Passwort",
+    "changePassword": {
+      "oldPassword": "altes Passwort",
+      "newPassword": "neues Passwort",
+      "newPassword2": "Passwort wiederholen",
+      "changePassword": "Passwort ändern",
+      "changePasswordOk": "Passwort geändert",
+      "changePasswordFailure": "Änderung fehlgeschlagen",
+      "passwordsNotEqual": "Passwörter nicht identisch",
+      "change": "Ändern",
+      "cancel": "Abbrechen"
+    },
+    "roles": "Rollen",
+    "save": "Speichern",
+    "saveOk": "Gespeichert",
+    "saveFailure": "Fehler",
+    "close": "Schließen",
+    "active": "Dieses Profil ist aktiv",
+    "inActive": "Dieses Profil ist inaktiv"
+  },
+  "notification": {
+    "logoutSuccess": "Du wurdest ausgeloggt",
+    "confirmDeletion": "Gelöscht",
+    "deletionFailed": "Löschen fehlgeschlagen",
+    "userCreated": "Benutzer erstellt",
+    "creationFailed": "Benutzer konnte nicht erstellt werden",
+    "passwordChanged": "Passwort geändert",
+    "userSaved": "Benutzer gespeichert",
+    "topicSaved": "Thema gespeichert",
+    "topicDeleted": "Thema gelöscht",
+    "termNotSaved": "Begriff nicht gespeichert",
+    "duplicateTerm": "Begriff existiert bereits",
+    "success": "Erfolg",
+    "error": "Fehler",
+    "topicNotSaved": "Thema nicht gespeichert",
+    "topicNotUpdated": "Thema nicht geändert",
+    "termNotDeleted": "Begriff nicht gelöscht",
+    "termDeleted": "Begriff gelöscht",
+    "renameTopicError": "Thema nicht umbenennt",
+    "topicChanged": "Thema geändert",
+    "topicsNotLoaded": "Themen konnten nicht geladen werden",
+    "termChanged": "Begriff geändert",
+    "termAdded": "Begriff hinzugefügt",
+    "parsingError": "Fehler beim Parse, ist die Datei als .json formatiert?",
+    "termsImported": "Begriffe wurden importiert",
+    "readFileError": "Datei konnte nicht gelesen werden",
+    "getUserFailure": "Nutzer konnten nicht geladen werden",
+    "userSaveFailure": "Nutzer konnten nicht gespeichert werden",
+    "duplicateUsername": "Benutzername ist bereits vergeben",
+    "webTokenexpired": "Authentifizierung fehlgeschlagen",
+    "termsNotImported": "Begriffe konnten nicht importiert werden",
+    "inviteSuccess": "Spieler eingeladen",
+    "alreadyInvited": "Spieler wurde schon eingeladen",
+    "kickSuccess": "Spieler gekickt",
+    "kickFailure": "Spieler konnte nicht gekickt werden",
+    "timeFlipChanged": "Konfiguration geändert",
+    "timeFlipNotChanged": "Konfiguration konnte nicht geändert werden"
+  },
+  "gameSettings": {
+    "title": "Spiel <span class='font-weight-thin'>Einstellungen</span",
+    "topicList": {
+      "Id": "Id",
+      "name": "Thema",
+      "topicName": "Thema",
+      "amountTerms": "#Begriffe",
+      "deleteTopic": "Thema löschen"
+    },
+    "termList": {
+      "termName": "Begriff",
+      "deleteTerm": "Begriff löschen",
+      "name": "Name",
+      "emptyForm": "Formular darf nicht leer sein",
+      "newTerm": "Neuer Begriff",
+      "addTerm": "Begriff erstellen",
+      "cancel": "Abbrechen",
+      "termId": "Id"
+    },
+    "topicDialog": {
+      "save": "Speichern",
+      "settings": "Einstellungen",
+      "name": "Name",
+      "info": "Auf Begriff klicken um ihn zu ändern",
+      "terms": "Begriffe"
+    },
+    "createTopic": {
+      "createTopic": "Thema erstellen",
+      "uploadTitle": "Themen Hochladen",
+      "uploadInfo": "Wähle deine Datei aus",
+      "import": "Importieren",
+      "cancel": "Abbrechen",
+      "fileUploaded": "Datei wurde hochgeladen",
+      "noFile": "Keine Datei ausgewählt",
+      "JSONInfo": "Der Inhalt der Datei sollte folgende Form haben."
+    }
+  },
+  "deleteButton": {
+    "cancel": "Abbrechen"
+  },
+  "timeFlip": {
+    "settings": {
+      "title": "TimeFlip <span class='font-weight-thin'>Einstellungen</span",
+      "create": "TimeFlip hinzufügen",
+      "list": {
+        "id": "Id",
+        "available": "Status",
+        "deviceName": "Name",
+        "deviceAddress": "Adresse",
+        "batteryLevel": "Akkustand"
+      },
+      "dialog": {
+        "save": "Speichern",
+        "fill": "Zufällig füllen"
+      },
+      "side": "Seite",
+      "action": "Ausführung",
+      "points": "Punkte",
+      "minutes": "Minuten",
+      "emptyForm": "Formular darf nicht leer sein",
+      "configured": "Konfiguriert"
+    }
+  },
+  "error": {
+    "404": {
+      "title": "NICHT GEFUNDEN",
+      "text": "Unser kleiner Helfer hat überall gesucht aber er konnte deine Seite nicht finden.",
+      "back": "Zurück zur Lobby"
+    },
+    "500": {
+      "title": "INTERNAL SERVER ERROR",
+      "text": "Sieht so aus als wäre unser Kollege explodiert während er versucht hat deine Anfrage entgegenzunehmen.",
+      "back": "Zurück zur Lobby"
+    }
+  },
+  "footer": {
+    "lobby": {
+      "title": "Lobby"
+    },
+    "team": {
+      "title": "Team",
+      "text": "Kein Projekt funktioniert ohne ein starkes Team dahinter."
+    },
+    "tos": {
+      "title": "Nutzungsbedingungen",
+      "dataUsage": {
+        "title": "Datennutzung",
+        "text": "Durch den Zugriff auf die TimeGuess-Website erklären Sie sich mit diesen Nutzungsbedingungen und allen geltenden Gesetzen und Vorschriften sowie damit einverstanden,dass Sie für deren Einhaltung verantwortlich sind. Wenn Sie nicht einverstanden sind, ist es Ihnen untersagt, auf das Spiel zuzugreifen.<br><br>Wir behalten uns das Recht vor, die allgemeinen Geschäftsbedingungen und Datenschutzbestimmungen jederzeit zu ändern.<br><br>Ihre fortgesetzte Nutzung des Spiels nach dem Veröffentlichen von Änderungen an dieser Richtlinie gilt als Ihre Zustimmung zu diesen Änderungen."
+      },
+      "applicableLaw": {
+        "title": "Anwendbares Recht",
+        "text": "Diese allgemeinen Geschäftsbedingungen unterliegen den österreichischen Gesetzen und werden entsprechend ausgelegt. Sie unterliegen unwiderruflich der ausschließlichen Zuständigkeit der Gerichte in diesem Staat oder Ort."
+      },
+      "userConduct": {
+        "title": "Benutzerverhalten",
+        "text": "Sie müssen alle Benutzer mit Respekt behandeln und alle aktualisierten Bedingungen und Richtlinien erfüllen, die mit TimeGuess verbunden sind. Respektieren Sie andere Benutzer des Spiels. Unangemessene Sprache und unangemessenes Verhalten sind verboten. Wir sind nicht verantwortlich für benutzergenerierte Inhalte wie Spitznamen, Begriffe und Zeichnungen. Die Benutzer sind für ihre Handlungen und die daraus resultierenden Konsequenzen verantwortlich."
+      }
+    },
+    "contact": {
+      "title": "Kontakt",
+      "text": "Falls du <span class='text-decoration-line-through'>Bugs</span> Features findest, darfst du sie behalten, ansonsten kannst du uns gerne schreiben.",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Nachricht",
+        "submit": "Absenden",
+        "rules": {
+          "name": "Name ist erforderlich",
+          "email": "Email ist erforderlich",
+          "emailValid": "Email muss gültig sein",
+          "message": "Nachricht ist erforderlich"
+        }
+      },
+      "dialog": {
+        "title": "Tut uns leid",
+        "text": "Wir haben leider kein Support Team, das sich um dein Anliegen kümmern könnte, geschweige denn haben wir eine Email-Adresse.",
+        "understand": "Ich habe verstanden"
+      }
+    }
+  }
+}
