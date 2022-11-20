@@ -1,7 +1,5 @@
 # TimeFlapp
 
-First, see our [User](https://git.uibk.ac.at/informatik/qe/sepsss21/group3/g3t1/-/wikis/User-guide#raspberry-pi-application) and [Developer](https://git.uibk.ac.at/informatik/qe/sepsss21/group3/g3t1/-/wikis/Development/Developer-guide) guides.
-
 What is not mentioned there is that we also have an image for amd64: docker.uibk.ac.at:443/informatik/qe/sepsss21/group3/g3t1/timeflapp:1.2.0-amd64
 
 ## Debugging

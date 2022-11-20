@@ -1,7 +1,5 @@
 # FlipFlapp
 
-First, see our [User](https://git.uibk.ac.at/informatik/qe/sepsss21/group3/g3t1/-/wikis/User-guide#web-application) and [Developer](https://git.uibk.ac.at/informatik/qe/sepsss21/group3/g3t1/-/wikis/Development/Developer-guide) guides.
-
 _Note: Running the application or the tests without Docker requires JDK 16._
 
 ## Run FlipFlapp without Docker
